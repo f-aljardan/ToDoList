@@ -1,26 +1,38 @@
 html {
-    background-color: #E4E9FD;
-    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
-    min-height: 1000px;
-    font-family: 'helvetica neue';
+  font-family: 'Poppins', sans-serif;
+  background: rgb(95,255,229);
+  background: linear-gradient(90deg, rgba(95,255,229,0.8465511204481793) 20%, rgba(255,233,177,0.8213410364145658) 49%);  font-family: 'helvetica neue';
   }
   
+  *{
+    font-family: 'Poppins';
+  }
   h1 {
-    color: #fff;
+    color: #898989;
     padding: 10px;
+    font-weight: 400;
   }
   
   .box {
     max-width: 400px;
-    margin: 50px auto;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    margin: 50px auto; 
+background: rgba(255, 255, 255, 0.655);
+box-shadow: 0 8px 32px 0 rgba(215, 217, 244, 0);
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 40px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
   
   #heading {
-    background-color: #A683E3;
+    
     text-align: center;
+    background: rgba(255, 255, 255, 0.655);
+box-shadow: 0 8px 32px 0 rgba(215, 217, 244, 0);
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 40px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
   
   .item {
@@ -36,7 +48,7 @@ html {
   
   input:checked+p {
     text-decoration: line-through;
-    text-decoration-color: #A683E3;
+    text-decoration-color: #000000;
   }
   
   input[type="checkbox"] {
@@ -48,7 +60,7 @@ html {
     padding: 20px;
     font-size: 20px;
     font-weight: 200;
-    color: #00204a;
+    color: #363636;
   }
   
   form.item {
@@ -61,10 +73,9 @@ html {
     width: 50px;
     border-radius: 50%;
     border-color: transparent;
-    background-color: #A683E3;
+    background-color:#363636;
     color: #fff;
     font-size: 30px;
-    padding-bottom: 6px;
     border-width: 0;
   }
   
@@ -81,7 +92,7 @@ html {
   
   input[type="text"]:focus {
     outline: none;
-    box-shadow: inset 0 -3px 0 0 #A683E3;
+    box-shadow: inset 0 -3px 0 0 #848288;
   }
   
   ::placeholder {
