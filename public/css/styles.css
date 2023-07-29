@@ -69,14 +69,15 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
   
   button {
-    min-height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     border-color: transparent;
     background-color:#363636;
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     border-width: 0;
+    margin-right: 40px;
   }
   
   input[type="text"] {
